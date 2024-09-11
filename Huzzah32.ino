@@ -257,6 +257,7 @@ void loop() {
           "Does another SPI device need to be disabled?\n");
     }
     errorPrint();
+
     return;
   }
   t = millis() - t;
